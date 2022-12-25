@@ -116,9 +116,8 @@ public class KomutArayuzu {
             }
             yeniRadyasyon = scanner.nextFloat();
             yeniGezegen.setRadyasyonOrani(yeniRadyasyon);
-            System.out.println("ERROR / GEÇERSİZ VERİ (0-100 aralığında olmalı)");
-        } while (Float.isNaN(yeniRadyasyon) || yeniRadyasyon < 0 || yeniRadyasyon > 100);
-        System.out.println("OK");
+            System.out.println("OK");
+        } while (Float.isNaN(yeniRadyasyon));
 
         // Yüzölçümü
         float yeniYuzolcumu;
@@ -150,9 +149,8 @@ public class KomutArayuzu {
             }
             hidrojen = scanner.nextFloat();
             gazlar.setHidrojen(hidrojen);
-            System.out.println("ERROR / GEÇERSİZ VERİ (0-1 aralığında olmalı)");
-        } while (Float.isNaN(hidrojen) || hidrojen < 0 || hidrojen > 1);
-        System.out.println("OK");
+            System.out.println("OK");
+        } while (Float.isNaN(hidrojen));
 
         // Oksijen gazı
         float oksijen = -1;
@@ -166,9 +164,8 @@ public class KomutArayuzu {
             }
             oksijen = scanner.nextFloat();
             gazlar.setOksijen(oksijen);
-            System.out.println("ERROR / GEÇERSİZ VERİ (0-1 aralığında olmalı)");
-        } while (Float.isNaN(oksijen) || oksijen < 0 || oksijen > 1);
-        System.out.println("OK");
+            System.out.println("OK");
+        } while (Float.isNaN(oksijen));
 
         // Azot gazı
         float azot = -1;
@@ -182,9 +179,8 @@ public class KomutArayuzu {
             }
             azot = scanner.nextFloat();
             gazlar.setAzot(azot);
-            System.out.println("ERROR / GEÇERSİZ VERİ (0-1 aralığında olmalı)");
-        } while (Float.isNaN(azot) || azot < 0 || azot > 1);
-        System.out.println("OK");
+            System.out.println("OK");
+        } while (Float.isNaN(azot));
 
         // Karbon gazı
         float karbon = -1;
@@ -198,9 +194,8 @@ public class KomutArayuzu {
             }
             karbon = scanner.nextFloat();
             gazlar.setKarbon(karbon);
-            System.out.println("ERROR / GEÇERSİZ VERİ (0-1 aralığında olmalı)");
-        } while (Float.isNaN(karbon) || karbon < 0 || karbon > 1);
-        System.out.println("OK");
+            System.out.println("OK");
+        } while (Float.isNaN(karbon));
 
         yeniGezegen.setGonderilenUyduSayisi(0);
         yeniGezegen.setGazlar(gazlar);
@@ -468,4 +463,4 @@ public class KomutArayuzu {
 
 
 
-    }
+}

@@ -27,6 +27,10 @@ It was an assignment for Objected Oriented Programming lesson in 2nd year 1st se
 <b>Sueda AKTAS</b> (Listing planets graphical, Editing of planets)
 
 <h3>Screenshots</h3>
+<img width="857" src="https://github.com/turgay2317/oop-assignment/assets/90829101/0d5b6449-7398-479d-b3f8-9ecfbbe7b91d">
+
+<img width="857" src="https://github.com/turgay2317/oop-assignment/assets/90829101/353333d5-a814-4959-b4ae-65de8df253d7">
+
 <img width="857" alt="Screen Shot 2022-12-23 at 18 39 55" src="https://user-images.githubusercontent.com/90829101/209361696-28e0d050-8e3c-4649-a37d-8483611fb035.png">
 
 <img width="708" alt="Screen Shot 2022-12-23 at 18 48 29" src="https://user-images.githubusercontent.com/90829101/209362752-316d8ef8-6137-4a3a-bff9-18128bc5c856.png">
